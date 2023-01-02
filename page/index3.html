@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.base.css">
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__icon">
+                
+                    <img src="./img/icon3.png">
+                    <p>Ứng dụng</p>
+                
+            </div>
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass" style="opacity:24% ;"></i>
+                <input type="text" placeholder="Tìm kiếm"/>
+                <i id="multi" class="fa-solid fa-xmark" style="opacity:24%;"></i>
+            </div>
+            <div class="search__high">
+                <button>
+                    <p>Tìm nâng cao</p>
+                </button>
+            </div>
+            <div class="header__notification">
+                <img src="./img/icon5.png">
+            </div>
+            <div class="header__infor">
+                <p>
+                    <p>Trần Đình Thủy( thuytd)</br>
+                    Phòng quản trị và tích hợp hệ thống</p>
+                </p>            
+                
+            </div>
+            <img class="man" src="./img/man.jpg">
+        </div>
+        <div class="nav">
+            <div class="nav__menu">
+                <div>
+                    <h1>DANH SÁCH PHÊ DUYỆT MUA SẮM ONLINE</h1>
+                    <p>
+                        Trang chủ
+                        <i class="fa-sharp fa-solid fa-circle"></i>
+                        Mua sắm phát sinh
+                    </p>
+                </div>
+                <div class="menu__button">
+                    <button class="button__save">
+                        <img src="./img/Vector.png"> Lưu
+                    </button>
+                    <button class="button__send">
+                        <i class="fa-solid fa-arrow-right"></i> Gửi yêu cầu
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu__logo">
+                <img src="./img/logo.png" alt="logo"> 
+                <p>SPS VN</p>
+            </div>
+            <i class="fa-solid fa-bars menu__bar"></i>
+            <div class="menu__list">
+                <ul>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Pending Requests</span></a></li>
+                    <li id="menu__span"><a><span class="menu__span1" >Phát sinh chờ duyệt</span></a></li>
+                    <li><a><span class="menu__span1">Tập trung chờ duyệt</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Đề xuất mua sắm</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt tập trung</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt phát sinh</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Báo cáo thống kê</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Danh mục hệ thống</span></a></li>
+                </ul>
+            </div>
+            <div class="menu__footer">
+                <ul>
+                    <li><a><img src="./img/icon2.png"><span class="menu__span">Quản trị hệ thống</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content__detail">
+                <table class="detail__table">
+                    <tr>
+                        <td colspan="6">
+                            <select name="detail__name" id="detail__name">
+                                <option value="Thông tin chi tiết yêu cầu"><p>Thông tin chi tiết yêu cầu</p></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Người tạo</p></td>
+                        <td><p>Trần Đình Thủy(thuytd)</p></td>
+                        <td><p>Bộ phận</p></td>
+                        <td><p>Phòng Công nghệ thông tin</p></td>
+                        <td><p>Ngày tạo</p></td>
+                        <td><p>30/08/2020</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Người xử lý</p></td>
+                        <td><p>Amy Trường(amytruong)</p></td>
+                        <td><p>Trạng thái</p></td>
+                        <td class="table__status"><p><img src="./img/Component 6.png"> &nbsp&nbsp Chờ GĐ C.CU duyệt</p></td>
+                        <td><p>Ngày Gửi</p></td>
+                        <td><p>23/10/2020</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Theo kế hoạch tháng</p></td>
+                        <td><p>Tháng 8</p></td>
+                        <td><p>Năm</p></td>
+                        <td><p>2020</p></td>
+                        <td><p>Thuộc</p></td>
+                        <td><p>Ngoài ngân sách</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Số tiền dự trù</p></td>
+                        <td><p>21.000.000</p></td>
+                        <td><p>Thời gian bàn giao cho bộ phận</p></td>
+                        <td><p>29/09/2020</p></td>
+                        <td><p>Nhà cung cấp</p></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tiêu đề(V/v)</p></td>
+                        <td colspan="2" style="width: 550px;">
+                            <p>[HN] Đơn giá: 375.000đ (chưa bao gồm VAT 10%)
+                            Chủng loại: Inox 304. KT: 540*300*40mm
+                            Tài liệu đính kèm: báo giá, KHMH, bản vẽ thiết kế</p>
+                        </td>
+                        <td><p>Nội dung đề xuất</p></td>
+                        <td colspan="2"><p>Đề xuất theo nội dung</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Phòng ban liên quan</p></td>
+                        <td colspan="3"></td>
+                        <td><p>Ý kiến trợ lý</p></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thời gian xử lý</p></td>
+                        <td colspan="3"></td>
+                        <td><p>Mua sắm</p></td>
+                        <td><p>Tập trung</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Phối hợp(view)</p></td>
+                        <td colspan="5" style="height: 71px;">
+                            <p>Khải Lê (khaile.cio)</br>
+                            Trần Đình Thủy (thuytd)</br>
+                            Amy Trường (amytruong)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Danh sách PO</p></td>
+                        <td colspan="3">
+                            <div class="table__vecto">
+                                <p>PO/CNTT/239/08/2020</p>
+                                <div>
+                                    <img src="./img/Component 7.png">
+                                    <img src="./img/Vector 8.png">
+                                    <img src="./img/Vector 9.png">
+                                    <img src="./img/Vector 10.png">
+                                </div>
+                            </div>
+                        </td>
+                        <td><p>File PO Tổng hợp</p></td>
+                        <td><p><img src="./img/Vector 9.png"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>File đính kèm</p></td>
+                        <td colspan="5"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="detail__history">
+                <table class="history__table">
+                    <tr>
+                        <td colspan="6">
+                            <select name="history__price" id="history__price">
+                                <option value="Lịch sử phê duyệt giá"><p>Lịch sử phê duyệt giá</p></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="history__title">
+                        <td><p>STT</p></td>
+                        <td><p>Ngày</p></td>
+                        <td><p>Người thực hiện/Chức vụ</p></td>
+                        <td><p>Phê duyệt/Từ chối</p></td>
+                        <td><p>Trạng thái</p></td>
+                        <td style="width: 601px;"><p>Nội dung</p></td>
+                    </tr>
+                    <tr>
+                        <td><p style="padding-left: 34px;">1</p></td>
+                        <td><p>Amy Trường (amytruong)</p></td>
+                        <td><p>Trạng thái</p></td>
+                        <td><p>Phê duyệt</p></td>
+                        <td><p></p></td>
+                        <td><p>23/10/2020</p></td>
+                    </tr>
+                    <tr>
+                        <td><p style="padding-left: 34px;">2</p></td>
+                        <td><p>Amy Trường (amytruong)</p></td>
+                        <td><p>Trạng thái</p></td>
+                        <td><p>Chuyển xử lý</p></td>
+                        <td><p></p></td>
+                        <td><p>23/10/2020</p></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="detail__comment">
+                <table class="comment__table">
+                    <tr>
+                        <td>
+                            <select name="comment__handling" id="comment__handling">
+                                <option value="Ý kiến xử lý">Ý kiến xử lý</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="comment__idea">
+                                <div class="comment__propose">
+                                    <p>Nội dung đề xuất *</p>
+                                    <textarea class="text__propose"></textarea>
+                                </div>
+                                <div class="comment__button">
+                                    <button class="button__save">
+                                        <img src="./img/Vector.png"> Lưu
+                                    </button>
+                                    <button class="button__send">
+                                        <i class="fa-solid fa-arrow-right"></i> Gửi yêu cầu
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

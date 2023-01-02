@@ -1,0 +1,122 @@
+.nav__menu button {
+    padding: 8px 20px;
+    background-color: #3751FF;
+    border-radius: 2px;
+    color: white;
+    margin-right: 35px;
+    border: none;
+    width: 137px;
+    height: 40px;
+}
+.content {
+    width: 1600px;
+    height: 845px;
+    background: #FFFFFF;
+    float: right;
+    margin: 30px 35px;
+    border: 1px solid #DFE0EB;
+    border-radius: 2px;
+    
+}
+
+.content__table
+{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+#photo
+{
+    position: absolute;
+    margin-top: 18px;
+    width: 31px;
+    height: 39px;
+}
+.content__table, tr, td
+{
+    border-bottom: 1px solid rgba(228, 220, 220, 0.658);  
+}
+.content__table td
+{
+    padding-left: 31px;
+}
+.content__table .table__head
+{
+    width: 1599px;
+    height: 57px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.content__table .info__table
+{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.content__table tr
+{
+    width: 1599px;
+    height: 92px;  
+}
+.content__table .status
+{
+    display: flex;
+    border-bottom: none;
+    margin-top: 30px;
+    width: 150px;  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #DCA705;  
+}
+.option
+{
+    position: absolute;
+    width: 18px;
+    border-bottom: none;
+    margin-left: 170px;
+    margin-top: -30px;
+}
+.table__footer
+{
+    display: flex;
+    float: right;
+    width: 350px;
+    height: 24px;
+    margin-top: 30px;
+}
+.table__footer tr td
+{
+    border-bottom: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.role__handlers
+{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #252733;
+    opacity: 0.56;
+}

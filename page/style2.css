@@ -1,0 +1,380 @@
+.content__head
+{
+    width: 1600px;
+    height: 209px;
+    background: #FFFFFF;
+    float: right;
+    margin: 30px 20px;
+    border: 1px solid #DFE0EB;
+    border-radius: 2px;
+}
+
+.head__client
+{
+    width: 759px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 32px;
+}
+
+.head__client .client__name input
+{
+    width: 367px;
+    height: 40px;
+}
+
+.head__client .client__department input
+{
+    width: 367px;
+    height: 40px;
+}
+
+.content__header
+{
+    width: 1542px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+.head__infor
+{
+    width: 759px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.head__infor .infor__title input
+{
+    width: 367px;
+    height: 40px;
+}
+
+.head__infor .infor__category select
+{
+    width: 367px;
+    height: 40px;
+    background-color: #F2F2F2;
+}
+
+.head__time
+{
+    width: 366px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.head__time .time__month select
+{
+    width: 174px;
+    height: 40px;
+    background-color: #F2F2F2;
+}
+
+.head__time .time__year select
+{
+    width: 174px;
+    height: 40px;
+    background-color: #F2F2F2;
+}
+
+.head__budget
+{
+    margin-top: 27px;
+}
+
+.head__budget input
+{
+    width: 367px;
+    height: 40px;
+}
+
+.content__body
+{
+    width: 1600px;
+    height: 357px;
+    background: #FFFFFF;
+    float: right;
+    margin: -13px 20px;
+    border: 1px solid #DFE0EB;
+    border-radius: 2px;
+    padding-top: 26px;
+}
+.body__file p
+{
+    margin-left: 32px;
+}
+.body__file input
+{
+    background-color: #F2F2F2;
+    width: 367px;
+    height: 40px;
+    margin-left: 32px;
+}
+
+.body__file .file__upload
+{
+    background-color: #3751FF;
+    border-radius: 2px;
+    width: 103px;
+    height: 40px;
+    align-items: center;
+    gap: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.body__file .file__download
+{
+    width: 137px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #3751FF;
+    border-radius: 2px;
+    padding: 8px 20px;
+    gap: 2px;
+    color: #3751FF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body__product  
+{
+    width: 1536px;
+    height: 220px;
+    margin-left: 32px;
+    border: 1px solid #C4C4C4;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 9px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.body__info
+{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.body__product td,th
+{
+    border: 1px solid #C4C4C4;  
+}
+
+.body__product tr td p
+{
+    width: 80%;
+    border: 1px black solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body__product tr td button
+{
+    float: left; 
+    margin-left: 15px;
+    width: 91px;
+    height: 24px;
+    border-radius: 1px;
+}
+.content__footer
+{
+    width: 1600px;
+    height: 209px;
+    background: #FFFFFF;
+    float: right;
+    margin: 30px 20px;
+    border: 1px solid #DFE0EB;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__client
+{
+    width: 759px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+}
+
+
+.footer__client .client__name input
+{
+    width: 367px;
+    height: 40px;
+}
+
+.footer__client .client__department select
+{
+    width: 367px;
+    height: 40px;
+    background: #F2F2F2;
+}
+
+.footer__price
+{
+    color: #FF0000;
+    width: 350px;
+    height: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.footer__finish
+{
+    width: 759px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.footer__finish .finish__time select
+{
+    width: 367px;
+    height: 40px;
+    background: #F2F2F2;
+}
+
+.footer__finish .finish__file
+{
+    margin-bottom: 20px;
+    width: 367px;
+    height: 40px;
+}
+.footer__finish .finish__file input
+{
+    width: 256px!important;
+    height: 40px;
+    background: #F2F2F2;
+}
+
+.footer__finish .finish__file button
+{
+    width: 103px;
+    height: 44px;
+    position: absolute;
+    background: #3751FF;
+    color: white;
+}
+.footer__content 
+{
+    width: 759px;
+    height: 118px;
+    margin-right: 26px;
+    margin-bottom: 23px;
+}
+
+.footer__content textarea
+{
+    width: 759px;
+    height: 123px;
+}
+
+.content__button
+{
+    width: 340px;
+    height: 40px;
+    /* background-color: #FF0000; */
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.button__delete
+{
+    width: 104px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 2px;
+    background: #E0E0E0;
+    border-radius: 2px;
+    border: none;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FF0000;
+
+}
+.button__save
+{
+    width: 83px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 2px;
+    background: #27AE60;
+    border-radius: 2px;
+    border: none;
+}
+.button__send
+{
+    width: 137px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 2px;
+    background: #3751FF;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

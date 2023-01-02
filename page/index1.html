@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style.base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__icon">
+                
+                    <img src="./img/icon3.png">
+                    <p>Ứng dụng</p>
+                
+            </div>
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass" style="opacity:24% ;"></i>
+                <input type="text" placeholder="Tìm kiếm"/>
+                <i id="multi" class="fa-solid fa-xmark" style="opacity:24%;"></i>
+            </div>
+            <div class="search__high">
+                <button>
+                    <p>Tìm nâng cao</p>
+                </button>
+            </div>
+            <div class="header__notification">
+                <img src="./img/icon5.png">
+            </div>
+            <div class="header__infor">
+                <p>
+                    <p>Trần Đình Thủy( thuytd)</p></br>
+                    <p class="infor__department">Phòng quản trị và tích hợp hệ thống</p>
+                </p>            
+                
+            </div>
+            <img class="man" src="./img/man.jpg">
+        </div>
+        <div class="nav">
+            <div class="nav__menu">
+                <div>
+                    <h1>DANH SÁCH PHÊ DUYỆT MUA SẮM ONLINE</h1>
+                    <p>
+                        Trang chủ
+                        <i class="fa-sharp fa-solid fa-circle"></i>
+                        Mua sắm phát sinh
+                    </p>
+                </div>
+                <div>
+                    <button>
+                        <i class="fa-sharp fa-solid fa-plus"></i>Thêm mới
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu__logo">
+                <img src="./img/Component 5.png" alt="logo"> 
+                <p>SPS VN</p>
+            </div>
+            <i class="fa-solid fa-bars menu__bar"></i>
+            <div class="menu__list">
+                <ul>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Pending Requests</span></a></li>
+                    <li><a><span class="menu__span1"></span>Phát sinh chờ duyệt</a></li>
+                    <li><a><span class="menu__span1"></span>Tập trung chờ duyệt</a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span"></span>Đề xuất mua sắm</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt tập trung</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt phát sinh</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Báo cáo thống kê</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Danh mục hệ thống</span></a></li>
+                </ul>
+            </div>
+            <div class="menu__footer">
+                <ul>
+                    <li><a><img src="./img/icon2.png"><span class="menu__span">Quản trị hệ thống</span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content">
+            <img id="photo" src="./img/Rectangle 9.png">         
+            <table class="content__table" >
+                <tr class="table__head">                   
+                    <td style="width: 130px;">Mã PO</td>
+                    <td style="width: 322px;">Tiêu đề</td>
+                    <td style="width: 108px;">Phòng ban</td>
+                    <td style="width: 79px;">Tháng năm</td>
+                    <td style="width: 97px;">Hạng mục</td>
+                    <td style="width: 92px;">Trợ lý( ý kiến)</td>
+                    <td style="width: 140px;">Ngày gửi</td>
+                    <td style="width: 78px;">Người xử lý</td>
+                    <td style="width: 200px;">Trạng thái</td>   
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>PO/CNTa	VHMN_ ĐỀ XUẤT AMPLI QUẦY THU NGÂN_302 ĐIỆN BIÊN PHỦT/255/10/2020</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ GDK/TP phê duyệt</p>
+                    </td>  
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Facilisi scelerisque venenatis, commodo nibh magnis tellus nisl. Accumsan mattis et egestas.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td> </td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ P.TGĐ.KD/P.TGĐ.VH phê duyệt</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Ipsum semper enim ipsum aliquet posuere adipiscing egestas ullamcorper amet. </td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ cập nhật KQ mua sắm</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Tortor, lorem facilisis faucibus commodo eget scelerisque ipsum. Maecenas sed interdum.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ cập nhật KQ mua sắm</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Consectetur tellus aenean dolor egestas condimentum. Ullamcorper lobortis libero non.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ cập nhật KQ mua sắm</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Sit fermentum vel ut lectus a. Sit sit enim, blandit integer cursus. Enim vel vel ridiculus sit.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ P.TGĐ.KD/P.TGĐ.VH phê duyệt</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Quis at purus blandit semper posuere lacus, ipsum pharetra eu. Egestas a urna tempus.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ cập nhật KQ mua sắm</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+                <tr class="info__table">
+                    <td>PO/CNTT/255/10/2020</td>
+                    <td>Quis nulla tempor risus turpis a faucibus fames eget dui. In eget urna cursus ac massa diam.</td>
+                    <td>Phòng Công nghệ thông tin</td>
+                    <td>10/2020</td>
+                    <td>HN_Mua sắm phát sinh</td>
+                    <td></td>
+                    <td>
+                        <p>May 26, 2019</p>
+                        <p class="role__handlers">6:30 PM</p>
+                    </td>
+                    <td>
+                        <p>Khải Lê</p>
+                        <p class="role__handlers">(Khaile.cio)</p>
+                    </td>
+                    <td class="status">
+                        <img src="./img/Component 2.png">
+                        <p>Chờ cập nhật KQ mua sắm</p>
+                    </td>
+                    <td class="option">
+                        <img src="./img/more - vertical.png"> 
+                    </td>
+                </tr>
+            </table>
+            <table class="table__footer">
+                <tr>
+                    <td style="width: 180px; padding-left: 20px;">
+                        Rows per page: 8
+                        <i class="fa-solid fa-caret-down"></i>
+                    </td>
+                    <td>
+                        1-8 of 1240 
+                        <i style="padding-left: 15px;" class="fa-solid fa-chevron-left"></i> &nbsp
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

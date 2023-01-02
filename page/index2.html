@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="./style.base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__icon">
+                
+                    <img src="./img/icon3.png">
+                    <p>Ứng dụng</p>
+                
+            </div>
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass" style="opacity:24% ;"></i>
+                <input type="text" placeholder="Tìm kiếm"/>
+                <i id="multi" class="fa-solid fa-xmark" style="opacity:24%;"></i>
+            </div>
+            <div class="search__high">
+                <button>
+                    <p>Tìm nâng cao</p>
+                </button>
+            </div>
+            <div class="header__notification">
+                <img src="./img/icon5.png">
+            </div>
+            <div class="header__infor">
+                <p>
+                    <p>Trần Đình Thủy( thuytd)</br>
+                    Phòng quản trị và tích hợp hệ thống</p>
+                </p>            
+                
+            </div>
+            <img class="man" src="./img/man.jpg">
+        </div>
+        <div class="nav">
+            <div class="nav__menu">
+                <div>
+                    <h1>DANH SÁCH PHÊ DUYỆT MUA SẮM ONLINE</h1>
+                    <p>
+                        Trang chủ
+                        <i class="fa-sharp fa-solid fa-circle"></i>
+                        Mua sắm phát sinh
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu__logo">
+                <img src="./img/Component 5.png" alt="logo"> 
+                <p>SPS VN</p>
+            </div>
+            <i class="fa-solid fa-bars menu__bar"></i>
+            <div class="menu__list">
+                <ul>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Pending Requests</span></a></li>
+                    <li id="menu__span"><a><span class="menu__span1" >Phát sinh chờ duyệt</span></a></li>
+                    <li><a><span class="menu__span1">Tập trung chờ duyệt</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Đề xuất mua sắm</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt tập trung</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Phê duyệt phát sinh</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Báo cáo thống kê</span></a></li>
+                    <li><a><img src="./img/icon1.png"><span class="menu__span">Danh mục hệ thống</span></a></li>
+                </ul>
+            </div>
+            <div class="menu__footer">
+                <ul>
+                    <li><a><img src="./img/icon2.png"><span class="menu__span">Quản trị hệ thống</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content__head">
+                <div class="head__client">
+                    <div class="client__name">
+                        <p>Người đặt hàng</p>
+                        <input class="class__input" type="text" value="Trần Đình Thủy">
+                    </div>
+                    
+                    <div class="client__department">
+                        <p>Phòng ban</p>
+                        <input class="class__input" type="text" value="Phòng Công Nghệ Thông tin">
+                    </div>
+                </div>
+                <div class="content__header">
+                    <div class="head__infor">
+                        <div class="infor__title">
+                            <p>Tiêu đề</p>
+                            <input type="text" class="class__input">
+                        </div>
+                        <div class="infor__category">
+                            <p>Hạng mục</p>
+                            <select name="category" id="category">
+                                <option value="Chọn hạng mục">Chọn hạng mục</option>
+                                <option value="Giải pháp hữu ích">Giải pháp hữu ích</option>
+                                <option value="Phần mềm quản lý">Phần mềm quản lý</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="head__time">
+                        <div class="time__month">
+                            <p>Theo kế hoạch tháng</p>
+                            <select name="month" id="month">
+                                <option value="Tháng 01">Tháng 01</option>
+                                <option value="Tháng 02">Tháng 02</option>
+                                <option value="Tháng 03">Tháng 03</option>
+                                <option value="Tháng 04">Tháng 04</option>
+                                <option value="Tháng 05">Tháng 05</option>
+                                <option value="Tháng 06">Tháng 06</option>
+                                <option value="Tháng 07">Tháng 07</option>
+                                <option value="Tháng 08">Tháng 08</option>
+                                <option value="Tháng 09">Tháng 09</option>
+                                <option value="Tháng 10">Tháng 10</option>
+                                <option value="Tháng 11">Tháng 11</option>
+                                <option value="Tháng 12">Tháng 12</option>
+                            </select>
+                        </div>
+                        <div class="time__year">
+                            <p>Theo kế hoạch tháng</p>
+                            <select name="year" id="year">
+                                <option value="Tháng 01">Tháng 01</option>
+                                <option value="Tháng 02">Tháng 02</option>
+                                <option value="Tháng 03">Tháng 03</option>
+                                <option value="Tháng 04">Tháng 04</option>
+                                <option value="Tháng 05">Tháng 05</option>
+                                <option value="Tháng 06">Tháng 06</option>
+                                <option value="Tháng 07">Tháng 07</option>
+                                <option value="Tháng 08">Tháng 08</option>
+                                <option value="Tháng 09">Tháng 09</option>
+                                <option value="Tháng 10">Tháng 10</option>
+                                <option value="Tháng 11">Tháng 11</option>
+                                <option value="Tháng 12">Tháng 12</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="head__budget">
+                            <p>Dòng ngân sách</p>
+                            <input class="class__input" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="content__body">
+                <div class="body__file">
+                    <p>Chọn tệp</p>
+                    <input class="class__input" type="text" placeholder="Chọn tệp">
+                    <button class="file__upload">
+                        <img src="./img/bx_bx-upload.png">
+                        Import
+                    </button>
+                    <button class="file__download">
+                        <img src="./img/bx_bx-download.png">
+                        Tải file mẫu
+                    </button>
+                </div>
+                <table class="body__product">
+                    <tr>
+                        <th>Mã SAP (nếu có)</th>
+                        <th>Tên vật tư, hàng hóa, dịch vụ</th>
+                        <th>ĐVT</th>
+                        <th>Tồn tại hiện tại</th>
+                        <th>Số lượng đề xuất</th>
+                        <th>Đơn giá dự kiến(chưa VAT)</th>
+                        <th>Thành tiền</th>
+                        <th>NCC</th>
+                        <th>Ngày cần hàng về</th>
+                        <th></th>
+                    </tr>
+                    <tr class="body__info">
+                        <td><p>400000694</p></td>
+                        <td><p style="text-align: left;">&nbsp Ấm đun hồng trà 5L</p></td>
+                        <td><p>Cái</p></td>
+                        <td><p>12</p></td>
+                        <td><p>30</p></td>
+                        <td><p>345,000</p></td>
+                        <td><p>10,350,000</p></td>
+                        <td><p style="text-align: left;">&nbsp Thanh Vân</p></td>
+                        <td><p>15/4/2020</p></td>
+                        <td><img src="./img/Component 3.png"></td>
+                    </tr>
+                    <tr class="body__info">
+                        <td><p>400000694</p></td>
+                        <td><p style="text-align: left;">&nbsp Ấm đun hồng trà 5L</p></td>
+                        <td><p>Cái</p></td>
+                        <td><p>12</p></td>
+                        <td><p>30</p></td>
+                        <td><p>345,000</p></td>
+                        <td><p>10,350,000</p></td>
+                        <td><p style="text-align: left;">&nbsp Thanh Vân</p></td>
+                        <td><p>15/4/2020</p></td>
+                        <td><img src="./img/Component 3.png"></td>
+                    </tr>
+                    <tr class="body__info">
+                        <td><p>400000694</p></td>
+                        <td><p style="text-align: left;">&nbsp Ấm đun hồng trà 5L</p></td>
+                        <td><p>Cái</p></td>
+                        <td><p>12</p></td>
+                        <td><p>30</p></td>
+                        <td><p>345,000</p></td>
+                        <td><p>10,350,000</p></td>
+                        <td><p style="text-align: left;">&nbsp Thanh Vân</p></td>
+                        <td><p>15/4/2020</p></td>
+                        <td><img src="./img/Component 3.png"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="10">
+                            <button>
+                                <i class="fa-sharp fa-solid fa-plus"></i>Thêm mới
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content__footer">
+                <div class="content__in4">
+                    <div class="footer__client">
+                        <div class="client__name">
+                            <p>Người đặt hàng</p>
+                            <input class="class__input" type="text" value="33,520,000">
+                        </div>
+                        <div class="client__department">
+                            <p>Phòng ban liên quan</p>
+                            <select name="category" id="category">
+                                <option value="Chọn hạng mục">Chọn hạng mục</option>
+                                <option value="Giải pháp hữu ích">Giải pháp hữu ích</option>
+                                <option value="Phần mềm quản lý">Phần mềm quản lý</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="footer__price">(BA MƯƠI BA TRIỆU NĂM TRĂM HAI MƯƠI NGHÌN ĐỒNG)</p>
+                    <div class="footer__finish">
+                        <div class="finish__time">
+                            <p>Thời gian hoàn thành dự kiến</p>
+                            <select name="time" id="time">
+                                <option value="Chọn thời gian">Chọn thời gian</option>
+                            </select>
+                        </div>
+                        <div class="finish__file">
+                            <p>File đính kèm</p>
+                            <input class="class__input" type="text" placeholder="Chọn tệp" >
+                            <button class="file__upload">
+                                <img src="./img/bx_bx-upload.png">
+                                Import
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <p>Nội dung đề xuất *</p>
+                    <textarea cols="20" rows="60"></textarea>
+                </div>
+            </div>
+            <div class="content__button">
+                <button class="button__delete">
+                    <img src="./img/Component 4.png"> Button
+                </button>
+                <button class="button__save">
+                    <img src="./img/Vector.png"> Lưu
+                </button>
+                <button class="button__send">
+                    <i class="fa-solid fa-arrow-right" style="color: aliceblue;"></i> Gửi yêu cầu
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
